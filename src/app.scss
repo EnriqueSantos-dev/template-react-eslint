@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #111;
+
+  .wrapper {
+    background: -webkit-linear-gradient(to right, #da22ff, #9733ee);
+    background: linear-gradient(to right, #da22ff, #9733ee);
+    border-radius: 0.375rem;
+    padding: 15px;
+
+    strong {
+      color: white;
+
+      font-size: 2rem;
+      line-height: 1.75rem;
+    }
+  }
+}
